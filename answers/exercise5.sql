@@ -1,2 +1,4 @@
-SELECT Students FROM Country
-ORDER BY Students DESC;
+SELECT COUNT(Students)
+FROM Enrolments
+ORDER BY COUNT(Students) DESC
+GROUP BY Country;
